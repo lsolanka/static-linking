@@ -16,4 +16,10 @@ void printAndIncrement()
     instance++;
 }
 
+void printAndIncrement_g()
+{
+    std::cout << "shared_a, g_int: " << g_int << '\n';
+    g_int++;
+}
+
 }  // namespace shared_a
